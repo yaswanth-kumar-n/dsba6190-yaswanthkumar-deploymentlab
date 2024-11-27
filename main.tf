@@ -98,7 +98,7 @@ resource "azurerm_mssql_database" "sdb" {
     foo = "bar"
   }
 
-  # prevent the possibility of accidental data loss
+  # prevent the possibility of accidental data loss ....
   lifecycle {
     prevent_destroy = true
   }
