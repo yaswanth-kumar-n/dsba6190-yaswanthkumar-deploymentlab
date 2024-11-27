@@ -34,7 +34,7 @@ resource "azurerm_resource_group" "rg" {
 
 # Create a virtual network within the resource group
 resource "azurerm_virtual_network" "vnet" {
-  name                = "vnet-dsba6190-yashu367-dev-eastus-877"
+  name                = "vnet-dsba6190-yash36-dev-eastus-877"
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_resource_group.rg.location
   address_space       = ["10.0.0.0/16"]
